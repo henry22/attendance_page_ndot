@@ -1,0 +1,72 @@
+form {
+    border: 1px solid #f1f1f1;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 0;
+    cursor: pointer;
+    width: 100%;
+}
+
+.cancel_btn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.container {
+    padding: 16px;
+}
+
+.bottom_container {
+    background-color: #f1f1f1;
+}
+
+.password {
+    float: right;
+    padding-top: 16px;
+}
+
+.password a {
+    text-decoration: none;
+}
+
+#logo {
+    width: 25%;
+    display: block;
+    margin: 0 auto;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* change styles for span and cancel button on extra small screens */
+
+@media screen and (max-width: 300px) {
+    
+    .password {
+        display: block;
+        float: none;
+    }
+    
+    .cancel_btn {
+        width: 100%;
+    }
+}

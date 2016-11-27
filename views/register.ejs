@@ -1,0 +1,20 @@
+<% include ./partials/header %>
+
+<div class="container">
+    <div class="row">
+        
+        <div style="width: 30%; margin: 0 auto;">
+           <h1 style="text-align: center;">Create a new account</h1>
+           
+           <form style="border: none;" action="/register" method="POST">
+                <input class="form-control" type="text" placeholder="Enter Username" name="username" required>
+                <input class="form-control" type="password" placeholder="Enter Password" name="password" required>
+                <button class="btn btn-lg btn-default">Submit</button>
+            </form>
+            
+            <a href="/users">Go back</a>
+        </div>
+    </div>
+</div>
+
+<% include ./partials/footer %>
